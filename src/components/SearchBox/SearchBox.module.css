@@ -1,8 +1,4 @@
-.label {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
+.text {
 }
 .input {
   width: 333px;
@@ -11,5 +7,9 @@
   padding: 5px;
 }
 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   margin-bottom: 25px;
+  align-items: flex-start;
 }
